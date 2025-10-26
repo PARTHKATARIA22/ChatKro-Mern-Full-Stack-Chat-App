@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  /* This setting enables all 35+ built-in daisyUI themes */
+  themes: all;
+}
