@@ -1,22 +1,24 @@
-# 🗨️ CHATKRO — Real-Time MERN Chat App
+# CHATKRO — Real-Time MERN Chat Application
 
-**CHATKRO** is a full-stack real-time chat application built with the **MERN Stack**, powered by **Socket.io** for instant communication and **MongoDB Atlas** for cloud storage.  
-It supports **image sharing**, **dynamic themes** via **DaisyUI**, and uses **Zustand** for smooth, minimal state management.  
-Deployed on **Render** for reliable hosting and scalability.
-
----
-
-## 🚀 Features
-- ⚡ Real-time messaging with Socket.io  
-- 🖼️ Image sharing support  
-- 🎨 Multiple themes using DaisyUI  
-- 🧠 Global state handled by Zustand  
-- ☁️ MongoDB Atlas cloud database  
-- 🌐 Fully responsive & hosted on Render  
+CHATKRO is a full-stack real-time chat application built using the MERN stack and powered by Socket.io for instant communication.  
+It supports image sharing, multiple themes through DaisyUI, and uses Zustand for efficient state management.  
+The application is deployed on Render and uses MongoDB Atlas for cloud storage.
 
 ---
 
-## 🧰 Tech Stack
+## Features
+
+- Real-time messaging with Socket.io  
+- Image sharing functionality  
+- Multiple themes powered by DaisyUI  
+- Global state management with Zustand  
+- MongoDB Atlas for secure cloud database  
+- Fully responsive design hosted on Render  
+
+---
+
+## Tech Stack
+
 **Frontend:** React, TailwindCSS, DaisyUI, Zustand  
 **Backend:** Node.js, Express.js, Socket.io  
 **Database:** MongoDB Atlas  
@@ -24,26 +26,25 @@ Deployed on **Render** for reliable hosting and scalability.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ```bash
-# 1️⃣ Clone the repository
+# Clone the repository
 git clone https://github.com/<your-username>/CHATKRO.git
 cd CHATKRO
 
-# 2️⃣ Install dependencies
+# Install dependencies
 cd server && npm install
 cd ../client && npm install
 
-# 3️⃣ Create .env in server folder
+# Create .env file inside the server directory
 MONGO_URI=your_mongodb_atlas_uri
 PORT=5000
 
-# 4️⃣ Run the app
-# Backend
+# Run the backend
 cd server
 npm run dev
 
-# Frontend
+# Run the frontend
 cd ../client
 npm start
